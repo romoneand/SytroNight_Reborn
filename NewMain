@@ -1,7 +1,7 @@
 
 local function callback(text)
     if text == "Yes" then
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/hgxrfxyvbu/main/NewMain'))() 
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/2-77283-0-11984-11-2-2/main/NewMain'))() 
 
 
     elseif text == "Decline" then

